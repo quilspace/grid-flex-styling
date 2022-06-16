@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+}
+header {
+  width: 51%;
+  margin: 24px auto;
+  display: flex;
+}
+ul {
+  list-style: none;
+  margin: 10px;
+}
+ul li {
+  padding: 20px;
+}
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 25.5%;
+}
+.flex {
+  background-color: hsl(31, 77%, 52%);
+  width: 100%;
+  cursor: pointer;
+}
+.flex:hover {
+  background-color: hsl(31, 66%, 40%);
+}
+.grid {
+  background-color: hsl(184, 100%, 22%);
+  width: 100%;
+  cursor: pointer;
+}
+.grid:hover {
+  background-color: hsl(184, 92%, 14%);
+}
+main {
+  display: grid;
+  grid-template-areas: "a b c";
+  width: 51%;
+  margin: auto;
+}
+main div {
+  padding: 2em;
+}
+main p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 12px;
+  line-height: 1.8em;
+  padding-bottom: 55px;
+}
+main img {
+  width: 40px;
+  height: 24px;
+}
+main h1 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  padding: 25px 0px;
+}
+main button {
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+}
+main button:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  color: hsl(0, 0%, 95%);
+  padding: 8px;
+}
+.orange {
+  background-color: hsl(31, 77%, 52%);
+  grid-area: a;
+}
+.orange button {
+  color: hsl(31, 77%, 52%);
+}
+.cyan {
+  background-color: hsl(184, 100%, 22%);
+  grid-area: b;
+}
+.cyan button {
+  color: hsl(184, 100%, 22%);
+}
+.dark-cyan {
+  background-color: hsl(179, 100%, 13%);
+  grid-area: c;
+}
+.dark-cyan button {
+  color: hsl(179, 100%, 13%);
+}
